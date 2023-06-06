@@ -18,3 +18,9 @@ button{
 #shopping-list div{
     margin-inline: 10px;
 }
+
+/* .table{
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+  } */

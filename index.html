@@ -22,16 +22,16 @@
             <div class="form-group m-4">
               <input type="number" class="form-control" id="amount" placeholder="Enter Amount">
             </div>
-            <div>
-            <button class="btn btn-primary m-4" onclick="calculate('party')">Party</button>
-            <button class="btn btn-primary m-4" onclick="calculate('food')">Food</button>
-            <button class="btn btn-primary m-4" onclick="calculate('shopping')">Shopping</button>
-            <button class="btn btn-primary m-4" onclick="calculate('petrol')">Petrol</button>
+            <div class="row">
+            <button class="col-lg-2 col-xs-6 btn btn-primary m-2" onclick="calculate('party')">Party</button>
+            <button class="col-lg-2 col-xs-6 btn btn-primary m-2" onclick="calculate('food')">Food</button>
+            <button class="col-lg-3 col-xs-6 btn btn-primary m-2" onclick="calculate('shopping')">Shopping</button>
+            <button class="col-lg-2 col-xs-6 btn btn-primary m-2" onclick="calculate('petrol')">Petrol</button>
             </div>
         </div>
 
-          <div class="container-fluid">
-            <table class="table" style="margin-left: 100px;">
+            <div class="table-responsive" style="overflow-x:auto;">
+            <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -106,9 +106,9 @@
 
 
               </table>
+            </div>
             
 
-          </div>
         
     </div>
 
